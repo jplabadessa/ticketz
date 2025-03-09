@@ -3,8 +3,8 @@
 
 # Função para mostrar a mensagem de uso
 show_usage() {
-    echo -e     "Uso: \n\n      curl -sSL get.github.com/jplabadessa/TicketzJP | sudo bash -s [-b <branchname>] <frontend_host> <email>\n\n"
-    echo -e "Exemplo: \n\n      curl -sSL get.github.com/jplabadessa/TicketzJP | sudo bash -s ticketz.exemplo.com.br email@exemplo.com.br\n\n"
+    echo -e     "Uso: \n\n      curl -sSL https://raw.githubusercontent.com/jplabadessa/TicketzJP/main/setup.sh | sudo bash -s [-b <branchname>] <frontend_host> <email>\n\n"
+    echo -e "Exemplo: \n\n      curl -sSL https://raw.githubusercontent.com/jplabadessa/TicketzJP/main/setup.sh | sudo bash -s ticketz.exemplo.com.br email@exemplo.com.br\n\n"
 }
 
 # Função para mensagem em vermelho
