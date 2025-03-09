@@ -99,10 +99,10 @@ if [ "$BRANCH" = "" ] ; then
    echored "                                               "
    echored "  Aperte CTRL-C para cancelar                  "
    echored "                                               "
-   echored "  A instalação irá prosseguir em 30 segundos   "
+   echored "  A instalação irá prosseguir em 10 segundos   "
    echored "                                               "
    echo ""
-   sleep 30
+   sleep 10
    echo "Prosseguindo..."
 fi
 
